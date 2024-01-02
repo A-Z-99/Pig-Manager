@@ -1,0 +1,49 @@
+#add-pig>table td:first-child, #more-info>table td:first-child {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+button {
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px 10px;
+    min-width: 100px;
+}
+
+body, select{
+    background-color: aliceblue;
+}
+
+section {
+    margin-left: 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1 {
+    text-align: center;
+}
+
+select {
+    border: none;
+}
+
+/*keep add and info tables invisible by default*/
+#add-pig, #more-info{
+    display:none;
+}
